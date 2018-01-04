@@ -265,6 +265,31 @@
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\mdb\css\bootstrap.css" />
+    <Content Include="Content\mdb\css\bootstrap.min.css" />
+    <Content Include="Content\mdb\css\mdb.css" />
+    <Content Include="Content\mdb\css\mdb.min.css" />
+    <Content Include="Content\mdb\css\style.css" />
+    <Content Include="Content\mdb\img\overlays\01.png" />
+    <Content Include="Content\mdb\img\overlays\02.png" />
+    <Content Include="Content\mdb\img\overlays\03.png" />
+    <Content Include="Content\mdb\img\overlays\04.png" />
+    <Content Include="Content\mdb\img\overlays\05.png" />
+    <Content Include="Content\mdb\img\overlays\06.png" />
+    <Content Include="Content\mdb\img\overlays\07.png" />
+    <Content Include="Content\mdb\img\overlays\08.png" />
+    <Content Include="Content\mdb\img\overlays\09.png" />
+    <Content Include="Content\mdb\img\svg\arrow_left.svg" />
+    <Content Include="Content\mdb\img\svg\arrow_right.svg" />
+    <Content Include="Content\mdb\index.html" />
+    <Content Include="Content\mdb\js\bootstrap.js" />
+    <Content Include="Content\mdb\js\bootstrap.min.js" />
+    <Content Include="Content\mdb\js\jquery-3.2.1.min.js" />
+    <Content Include="Content\mdb\js\mdb.js" />
+    <Content Include="Content\mdb\js\mdb.min.js" />
+    <Content Include="Content\mdb\js\popper.min.js" />
+    <Content Include="Content\mdb\license.txt" />
+    <Content Include="Content\mdb\README.txt" />
     <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -298,6 +323,66 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Content\mdb\font\roboto\Roboto-Bold.eot" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Bold.ttf" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Bold.woff" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Bold.woff2" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Light.eot" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Light.ttf" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Light.woff" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Light.woff2" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Medium.eot" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Medium.ttf" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Medium.woff" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Medium.woff2" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Regular.eot" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Regular.ttf" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Regular.woff" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Regular.woff2" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Thin.eot" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Thin.ttf" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Thin.woff" />
+    <Content Include="Content\mdb\font\roboto\Roboto-Thin.woff2" />
+    <Content Include="Content\mdb\License.pdf" />
+    <Content Include="Content\mdb\sass\mdb.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\data\_colors.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\data\_functions.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\data\_mixins.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\data\_prefixer.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\data\_variables-b4.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\data\_variables.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_animations.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_badge.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_breadcrumb.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_buttons.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_cards-basic.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_carousel-basic.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_collapse.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_deprecated.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_dropdowns.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_footer.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_forms-basic.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_global.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_helpers.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_jumbotron.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_list-group.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_masks.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_modals.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_msc.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_navbar.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_pagination.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_progress.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_tables.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_typography.scss" />
+    <Content Include="Content\mdb\sass\mdb\free\_waves.scss" />
+    <Content Include="Content\mdb\sass\mdb\_custom.scss" />
+    <None Include="Scripts\jquery-3.2.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.2.1.js" />
+    <Content Include="Scripts\jquery-3.2.1.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.min.js" />
+    <Content Include="Scripts\jquery-3.2.1.slim.min.map" />
+    <Content Include="Scripts\jquery-3.2.1.min.map" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />
@@ -314,9 +399,6 @@
     <None Include="_bin_deployableAssemblies\amd64\sqlceca40.dll" />
     <None Include="_bin_deployableAssemblies\amd64\Microsoft.VC90.CRT\README_ENU.txt" />
     <None Include="_bin_deployableAssemblies\amd64\Microsoft.VC90.CRT\msvcr90.dll" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
     <Content Include="Scripts\knockout-2.3.0.debug.js" />
     <Content Include="Scripts\knockout-2.3.0.js" />
     <Content Include="Scripts\knockout.validation.debug.js" />
@@ -380,7 +462,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
