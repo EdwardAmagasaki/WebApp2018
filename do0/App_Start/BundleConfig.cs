@@ -21,7 +21,10 @@ namespace do0
                 "~/Scripts/knockout-{version}.js",
                 "~/Scripts/knockout.validation.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/app").Include(
+            bundles.Add(new ScriptBundle("~/bundles/tether").Include(
+                "~/Scripts/tether.js"));
+
+               bundles.Add(new ScriptBundle("~/bundles/app").Include(
                 "~/Scripts/sammy-{version}.js",
                 "~/Scripts/app/common.js",
                 "~/Scripts/app/app.datamodel.js",
@@ -30,7 +33,7 @@ namespace do0
                 "~/Scripts/app/_run.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/mdb").Include(
-                "~/content/mdb/js/mdb.js"));
+                "~/Scripts/mdb.min.js"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need.
@@ -43,8 +46,10 @@ namespace do0
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                  "~/Content/mdb/css/bootstrap.css",
-                 "~/Content/mdb/css/mdb.css",
+                 "~/Content/mdb/css/mdb.min.css",
                  "~/Content/Site.css"));
+
+
         }
     }
 }

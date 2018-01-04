@@ -1,6 +1,16 @@
-﻿@section SPAViews {
+﻿@{
+    // Modifica a tag HTML: <title>@Viewbag.Title</title>
+    // Pegar Title de Cada MyFriend'S
+    // Verificar se está autenticado..
+    // Exibir identificação apenas para usuários cadastrados..
+
+    ViewBag.Title = "2absX";
+}
+
+@section SPAViews {
     @Html.Partial("_Home")
 }
+
 @section Scripts{
     @Scripts.Render("~/bundles/knockout")
     @Scripts.Render("~/bundles/app")
